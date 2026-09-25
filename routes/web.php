@@ -9,6 +9,9 @@ use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\Admin\HistoryController;
 
 
+Route::redirect('/', '/admin/login');
+
+
 /*
 |--------------------------------------------------------------------------
 | ADMIN LOGIN

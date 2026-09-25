@@ -21,7 +21,9 @@ class AuthController extends Controller
             'password' => 'required',
         ]);
 
-        $admin = Admin::where('username', $request->username)->first();
+        $admin = Admin::where('username', $request->username)
+            ->orWhere('email', $request->username)
+            ->first();
 
         if (!$admin || !Hash::check($request->password, $admin->password)) {
             return back()

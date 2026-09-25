@@ -93,14 +93,6 @@
 
         <hr class="text-secondary">
 
-        <a href="{{ route('admin.orders') }}">
-            Histori Order
-        </a>
-
-        <a href="{{ route('admin.booking') }}">
-            Histori Booking
-        </a>
-
         <a href="{{ route('admin.pesanan') }}">
             Histori Pesanan
         </a>

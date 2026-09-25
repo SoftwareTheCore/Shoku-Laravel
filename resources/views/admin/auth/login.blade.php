@@ -294,7 +294,7 @@
 
             <div class="field">
                 <div class="field-header">
-                    <label for="username">ID Karyawan / Email Admin</label>
+                    <label for="username">Username</label>
                 </div>
                 <div class="input-wrap">
                     <span class="material-symbols-outlined" aria-hidden="true">badge</span>
@@ -317,11 +317,6 @@
                         <span id="password-icon" class="material-symbols-outlined" aria-hidden="true">visibility</span>
                     </button>
                 </div>
-            </div>
-
-            <div class="remember-row">
-                <input id="remember" type="checkbox" name="remember">
-                <label for="remember">Ingat saya di perangkat ini</label>
             </div>
 
             <button class="submit-button" type="submit">
